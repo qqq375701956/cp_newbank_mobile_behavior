@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\nino.zhou\\Desktop\\my_project\\cp_newbank_mobile_behavior/data_model/model/bilstm_resnet_model/model.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\nino.zhou\\Desktop\\my_project\\cp_newbank_mobile_behavior/data_model/model/bilstm_resnet_model/model.ckpt"

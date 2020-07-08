@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07884ff5-a8e9-4216-968b-b819c96fa985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lstm_model/modeling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_access_toolbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/stocktoolbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/toolbox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xgboost_model/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_model/data/temp_arr_x.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_model/data/temp_arr_y.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstm_model/modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_lstm/modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xgboost_model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_xgboost/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="46">
+              <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -31,7 +29,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xgboost_model/main.py">
+        <entry file="file://$PROJECT_DIR$/model_xgboost/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2484">
               <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lstm_model/modeling.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model_lstm/modeling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="114">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -100,18 +98,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1350" />
-    <option name="height" value="690" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,42 +119,27 @@
             <path>
               <item name="cp_newbank_mobile_behavior" type="b2602c69:ProjectViewProjectNode" />
               <item name="cp_newbank_mobile_behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cp_newbank_mobile_behavior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cp_newbank_mobile_behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="data_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cp_newbank_mobile_behavior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cp_newbank_mobile_behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="lstm_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cp_newbank_mobile_behavior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cp_newbank_mobile_behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cp_newbank_mobile_behavior" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cp_newbank_mobile_behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="xgboost_model" type="462c0819:PsiDirectoryNode" />
+              <item name="model_lstm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github_project/Google BERT project/bert" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nino.zhou\Desktop\my_project\cp_newbank_mobile_behavior" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nino.zhou\Desktop\my_project\cp_newbank_mobile_behavior" />
     </key>
@@ -218,21 +200,25 @@
       <workItem from="1592620855452" duration="1172000" />
       <workItem from="1592695190003" duration="1016000" />
       <workItem from="1593525813578" duration="1895000" />
+      <workItem from="1593821065842" duration="1305000" />
+      <workItem from="1593836034388" duration="1399000" />
+      <workItem from="1593908548781" duration="1022000" />
+      <workItem from="1594134139119" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7048000" />
+    <option name="totallyTimeSpent" value="11371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27838257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -266,7 +252,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xgboost_model/main.py">
+    <entry file="file://$PROJECT_DIR$/config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_xgboost/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
@@ -286,22 +282,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lstm_model/modeling.py">
+    <entry file="file://$PROJECT_DIR$/model_lstm/modeling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="114">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
